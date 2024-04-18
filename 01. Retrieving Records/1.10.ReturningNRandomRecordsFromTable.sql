@@ -1,0 +1,3 @@
+SELECT ename, job
+FROM EMP
+ORDER BY RAND() LIMIT 5;
