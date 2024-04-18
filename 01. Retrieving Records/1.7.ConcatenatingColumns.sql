@@ -1,0 +1,3 @@
+SELECT CONCAT(ename, ' WORKS AS A ', job) AS MSG
+FROM EMP
+WHERE deptno = 10;
