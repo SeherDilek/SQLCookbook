@@ -1,0 +1,3 @@
+SELECT ename, job
+FROM EMP
+ORDER BY SUBSTR(job, LENGTH(job) - 1);
