@@ -1,0 +1,7 @@
+DROP VIEW IF EXISTS V;
+CREATE VIEW V AS
+SELECT CONCAT(ename, ' ', deptno) AS data
+FROM EMP;
+
+SELECT data
+FROM V;
