@@ -1,0 +1,2 @@
+INSERT INTO DEPT (deptno, dname, loc)
+VALUES (50, 'PROGRAMMING', 'BALTIMORE');
