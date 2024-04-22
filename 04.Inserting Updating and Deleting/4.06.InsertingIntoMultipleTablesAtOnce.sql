@@ -1,0 +1,4 @@
+/*
+Inserting rows returned by a query into one or more several tables 
+within the same statement currently not applicable in MySQL
+*/
