@@ -1,0 +1,21 @@
+DROP TABLE IF EXISTS EMP_BONUS3;
+
+CREATE TABLE EMP_BONUS3 (
+    EMPNO integer NOT NULL,
+    RECEIVED DATE,
+    TYPE integer
+);
+
+INSERT INTO EMP_BONUS3
+VALUES (
+        7934,
+       '2005-03-17',
+        1
+    );
+
+INSERT INTO EMP_BONUS3
+VALUES (
+        7934,
+       '2005-02-15',
+        2
+    );
