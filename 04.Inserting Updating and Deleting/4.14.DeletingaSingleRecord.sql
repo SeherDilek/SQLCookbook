@@ -1,0 +1,1 @@
+DELETE FROM EMP WHERE empno = 7782;
