@@ -1,0 +1,1 @@
+SELECT REGEXP_REPLACE('paul123f321', '[A-Za-z]', '');
