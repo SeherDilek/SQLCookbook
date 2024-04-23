@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS author_name;
+
+CREATE TABLE author_name (a_name CHAR(20));
+
+INSERT INTO author_name (a_name) VALUES ('Johnson');
+INSERT INTO author_name (a_name) VALUES ('Jonson');
+INSERT INTO author_name (a_name) VALUES ('Jonsen');
+INSERT INTO author_name (a_name) VALUES ('Jensen');
+INSERT INTO author_name (a_name) VALUES ('Johnsen');
+INSERT INTO author_name (a_name) VALUES ('Shakespeare');
+INSERT INTO author_name (a_name) VALUES ('Shakspear');
+INSERT INTO author_name (a_name) VALUES ('Shaekspir');
+INSERT INTO author_name (a_name) VALUES ('Shakespar');
