@@ -1,0 +1,6 @@
+SELECT COUNT(*)
+FROM EMP;
+
+SELECT deptno, COUNT(*)
+FROM EMP
+GROUP BY deptno;
