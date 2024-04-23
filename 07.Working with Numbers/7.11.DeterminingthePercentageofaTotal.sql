@@ -1,0 +1,2 @@
+SELECT SUM(CASE WHEN deptno = 10 THEN sal END) / SUM(sal) * 100 AS pct
+FROM EMP;
