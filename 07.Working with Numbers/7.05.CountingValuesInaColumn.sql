@@ -1,0 +1,2 @@
+SELECT COUNT(comm)
+FROM EMP;
