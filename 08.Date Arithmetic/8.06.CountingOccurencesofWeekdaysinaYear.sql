@@ -1,0 +1,12 @@
+SELECT DAYNAME(date_sequence) AS day,
+       COUNT(*) AS count
+FROM (
+    SELECT DATE_ADD(CAST(CONCAT(YEAR(CURRENT_DATE), '-01-01') AS DATE),
+     INTERVAL (T500.id - 1) DAY) AS date_sequence
+    FROM T500
+    WHERE T500.id <= DATEDIFF(
+        CAST(CONCAT(YEAR(CURRENT_DATE) + 1, '-01-01') AS DATE),
+        CAST(CONCAT(YEAR(CURRENT_DATE), '-01-01') AS DATE))
+) AS dates
+GROUP BY DAYNAME(date_sequence);
+
