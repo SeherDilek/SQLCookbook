@@ -1,0 +1,6 @@
+SELECT sal
+FROM (
+    SELECT ROW_NUMBER() OVER (ORDER BY sal) AS rn, sal
+    FROM EMP
+) X
+WHERE rn BETWEEN 1 AND 5;
