@@ -1,0 +1,4 @@
+SELECT COALESCE(job, 'TOTAL') job,
+       SUM(sal) sal
+FROM EMP
+GROUP BY job WITH ROLLUP;
