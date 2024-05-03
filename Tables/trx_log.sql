@@ -1,0 +1,113 @@
+DROP TABLE IF EXISTS TRX_LOG;
+
+CREATE TABLE TRX_LOG
+(
+    trx_id INT,
+    trx_date TIMESTAMP,
+    trx_cnt INT
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    1,
+    '2020-07-28 19:03:07',
+    44
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    2,
+    '2020-07-28 19:03:08',
+    18
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    3,
+    '2020-07-28 19:03:09',
+    23
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    4,
+    '2020-07-28 19:03:10',
+    29
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    5,
+    '2020-07-28 19:03:11',
+    27
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    6,
+    '2020-07-28 19:03:12',
+    45
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    7,
+    '2020-07-28 19:03:13',
+    45
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    8,
+    '2020-07-28 19:03:14',
+    32
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    9,
+    '2020-07-28 9:03:15',
+    41
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    10,
+    '2020-07-28 9:03:16',
+    15
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    11,
+    '2020-07-28 9:03:17',
+    24
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    12,
+    '2020-07-28 9:03:18',
+    47
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    13,
+    '2020-07-28 9:03:19',
+    37
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    14,
+    '2020-07-28 9:03:20',
+    48
+);
+
+INSERT INTO TRX_LOG VALUES
+(
+    15,
+    '2020-07-28 9:03:21',
+    46
+);
